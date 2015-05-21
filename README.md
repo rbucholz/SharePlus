@@ -8,3 +8,6 @@ Since it’s easiest to do your layout and styling on the desktop, we’ll start the
 Keep in mind that for the iPad, you’ll need to develop for 4 different screen configurations – landscape at 2048 x 1408, landscape with the side menu pinned at 1608 x 1408, portrait at 1536 x 1919 and portrait with the side menu pinned at 1095 x 1919. All the major browser dev tools allow you to select a custom resolution which will get you close to what will appear in the Launchpad.
 
 Once we've gotten our divs laid out so that they're roughly where they should be with dummy data, it's time to get them pixel perfect with real data using the SPlus API. For that, we'll need to get our Launchpad onto an iOS device. This requires the folders containing to be zipped up, given a .web.zip extension, and uploaded to SharePoint or DropBox. At this point our development flow is iterative (make a small change and test, make another small change and test again) so repetetive tasks like packaging a Launchpad quickly add up.
+
+[Gulp](http://gulpjs.com/) is perfect for automating away these annoyances and let you focus on coding. If you run the watch task with the gulpfile found in this directory, it will create a new distributable file every time you save your code. In the future, I hope to push it to SharePoint as well, but for now that'll be the only repetitive step you'll need to do.
+
