@@ -1,5 +1,5 @@
-SharePlus Launchpad Development
-===============================
+->SharePlus Launchpad Development<-
+  ===============================
 
 
 Developing SharePlus Launchpads comes with a unique set of challenges. Developers writing web applications rely on their browser dev tools (F12 in most browsers) to quickly visualize and debug their code on their desktop. Launchpads however, run within the iOS web control which may not render exactly the same as a desktop Safari browser. Another constraint is that JavaScript code using the SharePlus API is only available within the SharePlus app. This means that you’ll need to do your iterative testing and debugging remotely on your iOS device, packaging and uploading a new Launchpad to SharePoint every time a change is made which can quickly become tedious. Fortunately, with the right toolset this process can be made easier. 
