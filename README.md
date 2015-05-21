@@ -21,4 +21,4 @@ If what you want is old fashioned debug statements to test your JavaScript code 
 ```HTML
 <script src="http://jsconsole.com/remote.js?YOUR-CONNECTION_ID-WILL-BE-HERE"></script>
 ```
-This is a free service so sometimes their servers get a little busy but with some patience and proper debug statements (hint: use [`JSON.stringify()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)). 
+This is a free service so sometimes their servers get a little busy but with some patience and proper debug statements (hint: use [`JSON.stringify()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)) you'll be able to see what your code is doing. 
